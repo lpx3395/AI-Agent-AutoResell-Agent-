@@ -1,3 +1,24 @@
+auto-resell-agent/
+│
+├── README.md
+├── requirements.txt
+├── main.py
+│
+├── agents/
+│   ├── copy_agent.py
+│   ├── pricing_agent.py
+│   ├── product_agent.py
+│
+├── core/
+│   ├── workflow.py
+│   ├── llm.py
+│
+├── data/
+│   ├── sample_products.json
+│
+└── utils/
+    ├── prompt_templates.py
+
 # AI-Agent-AutoResell-Agent-
 自动分析商品（图片/文案） 自动生成闲鱼高转化文案 自动定价策略 自动发布/模拟发布 数据反馈优化（简单版）
 # Auto Resell Agent
